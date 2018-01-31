@@ -1,0 +1,71 @@
+/* @import '../tc_store/resource/css/base_main.wxss'; */
+.banner_img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu_list {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  padding-top: 15px;
+  background: #fff;
+}
+
+.menu_item {
+  width: 20%;
+  height: 100px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.video-list {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.video_view {
+  width: 100%;
+}
+
+.video_title {
+  display: block;
+  font-size: 35rpx;
+  color: #ffffff;
+  height: 120rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.video_user_head {
+  height: 40px;
+  width: 40px;
+  margin-top: 85px;
+  border: 0 solid #fff;
+  border-radius: 100rpx;
+}
+.video_items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+  border-bottom: solid #e6e1e1 2px;
+}
+
+.video_item {
+  display: flex;
+  width: 25%;
+  font-size: 12px;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+}
+

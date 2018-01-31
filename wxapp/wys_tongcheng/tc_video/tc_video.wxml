@@ -1,0 +1,38 @@
+  <!-- <swiper indicator-dots='true' duration='500' autoplay='true' circular='true' interval='3000'>
+    <block wx:for='{{imgUrls}}' wx:key="unique">
+      <swiper-item>
+        <image src="{{item}}" class="banner_img" />
+      </swiper-item>
+    </block>
+  </swiper> -->
+  <view class="menu_list">
+    <view class='menu_item' wx:for="{{video_category}}" wx:key="unique" data-tid="{{item.id}}" bindtap="menu_release">
+      <image src="{{item.imgUrl}}" style='width:50px;height:50px'></image>
+      <view class="menu_text">{{item.text}}</view>
+    </view>
+  </view>
+  <view class='video-list'>
+    <block wx:if='{{videoList}}' wx:for='{{videoList}}' wx:key='unique'>
+      <video wx:if='{{item.video_uri}}' id='{{item.id}}' class='video_view' src='{{item.video_uri}}' objectFit="contain" controls show-center-play-btn enableProgressGesture custom-cache='{{false}}' bindplay='bindplay' bindpause="bindpause" bindended='bindpause'>
+        <cover-view id='{{item.id}}' data-index="{{index}}" hidden bindtap='videoController' style='height:100%;font-size:14px;color:#ffffff;padding:10px'>
+          <cover-view class='video_title'>{{item.text}}</cover-view>
+          <cover-image src='{{item.profile_image}}' class='video_user_head'></cover-image>
+          <cover-view style='margin-top:5px'>{{item.name}}</cover-view>
+        </cover-view>
+      </video>
+      <view class='video_items'>
+        <view class='video_item'>
+          <image src='../resource/images/static/eyes.png' style='height:20px; width:20px;' />
+          <text class='video_item_text'>{{item.id}}</text>
+        </view>
+        <view class='video_item'>
+          <image src='../resource/images/static/message.png' style='height:20px; width:20px;' />
+          <text class='video_item_text'>{{item.hate}}</text>
+        </view>
+        <view class='video_item'>
+          <image src='../resource/images/static/follow.png' style='height:20px; width:20px;' />
+          <text class='video_item_text'>{{item.love}}</text>
+        </view>
+      </view>
+    </block>
+  </view>

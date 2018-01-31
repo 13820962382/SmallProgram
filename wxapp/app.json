@@ -1,0 +1,89 @@
+{
+  "pages": [
+    "wys_tongcheng/pages/index/index",
+    "wys_tongcheng/tc_store/pages/store_list/page",
+    "wys_tongcheng/tc_store/pages/store_main/page",
+    "wys_tongcheng/tc_store/pages/order_list_kefu/page",
+    "wys_tongcheng/tc_store/pages/order_comment/page",
+    "wys_tongcheng/tc_store/pages/order_comment_list/page",
+    "wys_tongcheng/tc_store/pages/store_list_my/page",
+    "wys_tongcheng/tc_store/pages/goods_main/page",
+    "wys_tongcheng/tc_store/pages/stroe_add/page",
+    "wys_tongcheng/tc_store/pages/order_hexiao/page",
+    "wys_tongcheng/tc_store/pages/goods_add/page",
+    "wys_tongcheng/tc_store/pages/order_sure/page",
+    "wys_tongcheng/tc_store/pages/store_info/page",
+    "wys_tongcheng/tc_store/pages/store_goods_info/page",
+    "wys_tongcheng/tc_store/pages/order_list/page",
+    "wys_tongcheng/page_send_main/send_main",
+    "wys_tongcheng/page_user_main/page",
+    "wys_tongcheng/pages/myuser/myuser",
+    "wys_tongcheng/pages/myuser_banner/page",
+    "wys_tongcheng/pages/release/release",
+    "wys_tongcheng/pages/myuser_send/msg_list",
+    "wys_tongcheng/pages/msg_send/msg_send",
+    "wys_tongcheng/pages/banner_sale/page",
+    "wys_tongcheng/pages/banner_sale_list/page",
+    "wys_tongcheng/pages/msg_info/msg_info",
+    "wys_tongcheng/pages/msg_list/msg_list",
+    "wys_tongcheng/pages/msg_list_byuser/msg_list",
+    "wys_tongcheng/pages/myuser_info/myuser_info",
+    "wys_tongcheng/pages/msg_jubao/msg_jubao",
+    "wys_tongcheng/pages/banner_info/banner_info",
+    "wys_tongcheng/pages/banner_info/tw_info",
+    "wys_tongcheng/pages/myuser_smrz_p_info/smrz_p_info",
+    "wys_tongcheng/pages/pay_taocan/page",
+    "wys_tongcheng/pages/myuser_smrz_nav/smrz_nav",
+    "wys_tongcheng/pages/wallet/page",
+    "wys_tongcheng/pages/wallet_list/page",
+    "wys_tongcheng/pages/wallet_tx_list/page",
+    "wys_tongcheng/pages/wallet_tixian/page",
+    "wys_tongcheng/tc_video/tc_video",
+    "wys_tongcheng/tc_video/record_video/record"
+  ],
+  "window": {
+    "navigationBarTitleText": "微同城",
+    "navigationBarBackgroundColor": "#ee404a",
+    "navigationBarTextStyle": "#ffffff",
+    "backgroundColor": "#eaeaea",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#ff5a00",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "wys_tongcheng/pages/index/index",
+        "iconPath": "wys_tongcheng/resource/images/menu/e7.png",
+        "selectedIconPath": "wys_tongcheng/resource/images/menu/e7_ok.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "wys_tongcheng/page_send_main/send_main",
+        "iconPath": "wys_tongcheng/resource/images/menu/e2.png",
+        "selectedIconPath": "wys_tongcheng/resource/images/menu/e2_ok.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "wys_tongcheng/tc_video/tc_video",
+        "iconPath": "wys_tongcheng/resource/images/menu/video.png",
+        "selectedIconPath": "wys_tongcheng/resource/images/menu/video_ok.png",
+        "text": "视频资讯"
+      },
+      {
+        "pagePath": "wys_tongcheng/tc_store/pages/store_list/page",
+        "iconPath": "wys_tongcheng/resource/images/menu/store.png",
+        "selectedIconPath": "wys_tongcheng/resource/images/menu/store_ok.png",
+        "text": "商家"
+      },
+      {
+        "pagePath": "wys_tongcheng/pages/myuser/myuser",
+        "iconPath": "wys_tongcheng/resource/images/menu/e1.png",
+        "selectedIconPath": "wys_tongcheng/resource/images/menu/e1_ok.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

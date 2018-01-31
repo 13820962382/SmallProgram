@@ -1,0 +1,45 @@
+/* wys_tongcheng/tc_video/record_video/record.wxss */
+
+.button_view {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn_show {
+  width: 50%;
+  height: 100%;
+  background: red;
+  color: white;
+  text-align: center
+}
+
+.btn_hidden {
+  width: 50%;
+  height: 100%;
+  background: white;
+  color: black;
+  text-align: center
+}
+
+.camera {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.record_btn {
+  width: 70px;
+  height: 20px;
+  position: fixed;
+  background: #ee404a;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px;
+  bottom: 20px;
+  left: 36%
+}

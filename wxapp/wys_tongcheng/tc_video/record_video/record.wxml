@@ -1,0 +1,11 @@
+<!--wys_tongcheng/tc_video/record_video/record.wxml-->
+<view class='button_view'>
+  <view class="{{upload?'btn_hidden':'btn_show'}}" bindtap='bindtap'>录制视频</view>
+  <view class="{{upload?'btn_show':'btn_hidden'}}" bindtap='bindtap'>上传视频</view>
+</view>
+<view wx:if='{{!upload}}' class='camera'>
+  <camera style='width:100%;height:100%'>
+    <cover-view wx:if='{{!recording}}' class='record_btn' bindtap='recodVideo'>{{btn_text[0]}}</cover-view>
+    <cover-view wx:else class='btn_view' bindtap='recodVideo'>{{btn_text[1]}}</cover-view>
+  </camera>
+</view>
